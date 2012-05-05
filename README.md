@@ -19,6 +19,6 @@ Using this couldn't be simpler, but does assume a few of  things
 ### Setup ###
 
 1. Copy the `AzureCacheStorage` file in the repo to your project.
-2. Initialize a new instance of it into MiniProfiler.Settings.Storage. In an MVC application, this can be done in the `App_Start/MiniProfiler.PreStart() method.
+2. Initialize a new instance of it into MiniProfiler.Settings.Storage. In an MVC application, this can be done in the `App_Start/MiniProfiler.PreStart()` method.
 
-    MiniProfiler.Settings.Storage = new AzureCacheStorage(TimeSpan.FromHours(1));
+`MiniProfiler.Settings.Storage = new AzureCacheStorage(TimeSpan.FromHours(1));`
